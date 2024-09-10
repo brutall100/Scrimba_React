@@ -1,0 +1,12 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: #c8bbbb;
+  --primary-color: #212121;
+  --accent-color: #ff5722;
+  --text-color: #333333;
+
+}
+
