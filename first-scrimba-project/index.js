@@ -1,27 +1,13 @@
-function Navbar() {
-    return (
-        <nav>
-            <h1>Hello World</h1>
-        </nav>
-    )
-}
+import React from 'react';
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
 
-function MainContent() {
-    return (
-        <main>
-            <p>This is where most of my content will go...</p>
-        </main>
-    )
-}
-
-
-ReactDOM.render(
-    <div>
-        <Navbar />
-        <MainContent />
-    </div>,
-    document.getElementById("root")
-)
+const root = createRoot(document.getElementById('root'));
+root.render(
+  <StrictMode>
+    <App />
+  </StrictMode>
+);
 
 
 // ! REACT panaudojimas be instaliuotu Biblioteku
